@@ -65,5 +65,5 @@ app.put('/collection/:collectionName/:id', (req, res, next) => {
         })
 })
 
-
+const port = process.env.PORT || 3000
 app.listen(3000);
